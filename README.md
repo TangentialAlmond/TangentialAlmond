@@ -1,6 +1,6 @@
 # Hi, I'm Amanda! <img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="25"/>
 👩🏻‍🔬 PhD discovering molecular glues with cell images @ Georg Winter lab, Austria<br>
-👩🏻‍🎓 Majored in Life Sciences + USP + SPS @ National University of Singapore, Singapore<br
+👩🏻‍🎓 Majored in Life Sciences + USP + SPS @ National University of Singapore, Singapore<br>
 🌱 Currently building the TeaDex, learning about AI algorithms and enjoying tea
 
 
