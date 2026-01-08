@@ -13,11 +13,12 @@ I'm a wet-lab turned computational biologist passionate about creating intuitive
 One of my hobbies is learning about teas produced around the world. With over 2000+ recorded cultivars of tea and a myriad of tea production procedures, I want to create a platform allowing the tea community to collaboratively catalog images of dry tea leaf and some basic information on them (e.g. name of the tea, tea type, production steps). This project is my first full-stack project and introduction to JavaScript, and is a work-in-progress.
 - **The Challenge:** How to visualize multi-modal data (iamges and processing parameters) for a specialized community?<br/>
 - **The Solution:** A MERN-based platform utilizing AWS S3 for image serving and a clean, user-centric `React` interface.
-- **Deployment:** The public-client (read-only) of TeaDex is live at [https://teadex.onrender.com/](https://teadex.onrender.com/).
+- **Deployed at:** The public-client (read-only) of TeaDex is live at [https://teadex.onrender.com/](https://teadex.onrender.com/).
 
 ## 🎨 [Isogenic Cell Painting Assay](https://github.com/GWinterLab/IsogenicCPA)
+Molecular glues are a relatively new class of small-molecule drugs that gained traction in drug discovery around the 2020s. They "glue" together two proteins, creating a protein-drug-protein sandwich. This mechanism of action distinguishes molecular glues from other small-molecule drugs which typically form protein-drug complexes. Given this unique mechanism of action, new drug discovery assays are required to identify these molecular glues, and my colleagues and I at the [Georg Winter lab](https://www.winter-lab.com/) wondered if we could use images of cells treated with drugs to develop a novel molecular glue finding assay.
 - **The Challenge:** Can morphological features from cell images be used to identify drug treatments with molecular glue behavior?
-- **Implementation and Solution:**
+- **The Solution:** We adapted the [Cell Painting Assay](https://pmc.ncbi.nlm.nih.gov/articles/PMC5223290/) for finding molecular glues.
   - Implementation of a HPC-compatible pipeline: Built a pipeline using `cellpose` for whole-cell and nuceli segmentation, and `CellProfiler` for extracting > 1000 morphological features from 10000+ images of cells.
   - Multivariate exploration: Use of PCA, UMAP, correlation modelling (Kendall's $\tau_b$), and network visualization with `networkx` to distill biological "noise" into clear patterns identifying drugs that behave as molecular glues.
 - **Published at:** [https://pubs.acs.org/doi/10.1021/acschembio.3c00598](https://pubs.acs.org/doi/10.1021/acschembio.3c00598)
