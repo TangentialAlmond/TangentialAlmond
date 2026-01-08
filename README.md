@@ -10,7 +10,7 @@ I'm a wet-lab turned computational biologist passionate about creating intuitive
 
 # 🤩 Featured Projects
 ## 🌱 [TeaDex](https://github.com/TangentialAlmond/teadex)
-One of my hobbies is learning about teas produced around the world. With over 2000+ recorded cultivars of tea and a myriad of tea production procedures, I wanted to create a platform allowing the tea community to collaboratively catalog images of dry tea leaf and some basic information on them (e.g. name of the tea, tea type, production steps).
+One of my hobbies is learning about teas produced around the world. With over 2000+ recorded cultivars of tea and a myriad of tea production procedures, I want to create a platform allowing the tea community to collaboratively catalog images of dry tea leaf and some basic information on them (e.g. name of the tea, tea type, production steps). This project is my first full-stack project and introduction to JavaScript, and is a work-in-progress.
 - **The Challenge:** How to visualize multi-modal data (iamges and processing parameters) for a specialized community?<br/>
 - **The Solution:** A MERN-based platform utilizing AWS S3 for image serving and a clean, user-centric `React` interface.
 - **Deployment:** The public-client (read-only) of TeaDex is live at [https://teadex.onrender.com/](https://teadex.onrender.com/).
